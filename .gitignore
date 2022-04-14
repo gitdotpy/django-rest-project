@@ -1,0 +1,21 @@
+# Static Admin
+/static/admin/
+
+#DB
+db.sqlite3
+
+#Cache
+*__pycache__*
+*/__pycache__/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.ebextensions/*
+
+#Venv
+/venv/
+
+#VS
+.vscode/
